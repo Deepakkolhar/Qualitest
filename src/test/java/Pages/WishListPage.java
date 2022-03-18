@@ -41,7 +41,7 @@ public class WishListPage {
 
 	public int searchLowestPrice(WebDriver driver2) {
 		driver = driver2;
-
+		System.out.println("abc");
 		WebElement TogetRows = driver.findElement(selected_item_list);
 		List<WebElement>TotalRowsList = TogetRows.findElements(By.tagName("tr"));
 		//	System.out.println("****************"+TotalRowsList);
